@@ -1,0 +1,32 @@
+{
+  "name": "memory-game",
+  "version": "1.0.0",
+  "description": "cards match",
+  "main": "script.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {
+    "jsdom": "^15.1.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.4.0"
+  },
+  "scripts": {
+    "test": "jasmine ./tests/memory.Spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThembiFlo/memory-game.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Thembi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThembiFlo/memory-game/issues"
+  },
+  "homepage": "https://github.com/ThembiFlo/memory-game#readme"
+}
